@@ -1,8 +1,8 @@
 # GenericTrySystem
-This generic system is based on Trie data structure.
-This means it can sort, insert, remove, search and return number of prefixes in linear by the length of the elements time complexity, O(objectMaxLength).
-The system is generic:
-For the class element the following methods are required:
+This system is based on "Trie" data structure.
+This means it has the ability to search, sort, insert, remove and return the number of prefixes in linear time complexity (by the **length** of the elements) , O(objectMaxLength).
+The system is generic,
+Therefore the following methods should be override by the entity object class:
 - operator[]
 - getLength() const
 - char convertToElementType(int index) const
